@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginBottom="60dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="egg"
+        android:textColor="#FCD900"
+        android:textSize="100sp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="EMAIL"
+        android:backgroundTint="#FCD900"
+        android:inputType="textEmailAddress"
+        android:id="@+id/inemail"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FCD900"
+        android:inputType="textPassword"
+        android:hint="PW"
+        android:id="@+id/inpw"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FCD900"
+        android:layout_margin="10dp"
+        android:text="Sign in"
+        android:textSize="25sp"
+        android:id="@+id/signin"/>
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="회원가입"
+            android:id="@+id/signup"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="EMAIL찾기"
+            android:id="@+id/findemail"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="PW찾기"
+            android:id="@+id/findpw"/>
+    </LinearLayout>
+
+
+</LinearLayout>
